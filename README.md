@@ -45,3 +45,45 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+
+## UPDATES
+This repository contains the solution for the MongoDB Fundamentals assignment, including CRUD operations, advanced queries, aggregation pipelines, and indexing.
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v18 or higher)
+- MongoDB (local installation or Atlas account)
+- MongoDB Shell (mongosh) or MongoDB Compass
+
+## Steps
+1. Initialize npm environment:
+```bash
+npm init -y
+```
+
+2. Install MongoDB driver:
+```bash
+npm install mongodb
+```
+
+3. Install MongoDB locally (if not using Atlas):
+```bash
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
+```
+
+## Running the Scripts
+1. First, populate the database with sample data:
+```bash
+node insert_books.js
+```
+
+2. Then run the queries:
+```bash
+node queries.js
+``` 
+
+<img src="MongoDB.png">
